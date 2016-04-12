@@ -49,6 +49,6 @@ tags: 异构计算
     context = clCreateContext(NULL, 1, &device_id, NULL, NULL, &ret);
 ```
 
-# 相关链接 
-[- ](http://blog.h2nachuang.cn/2016/03/31/opencl-environment-build/)
-[- ](http://blog.h2nachuang.cn/2016/04/08/opencl-prog
+# 相关连接
+[- 异构计算 OpenCL(CPU/GPU) 开发环境构建](http://blog.h2nachuang.cn/2016/03/31/opencl-environment-build/)
+[- 异构计算 OpenCL(CPU/GPU) 执行参数设置](http://blog.h2nachuang.cn/2016/04/08/opencl-program-parameter-setting/)

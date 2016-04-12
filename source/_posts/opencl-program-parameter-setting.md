@@ -72,3 +72,7 @@ tags:
 
 ```
 [clEnqueueNDRangeKernel](https://www.khronos.org/registry/cl/sdk/1.0/docs/man/xhtml/clEnqueueNDRangeKernel.html) 参数介绍
+
+# 相关连接
+[- 异构计算 OpenCL(CPU/GPU) 开发环境构建](http://blog.h2nachuang.cn/2016/03/31/opencl-environment-build/)
+[- 异构计算 OpenCL(CPU/GPU) 执行参数设置](http://blog.h2nachuang.cn/2016/04/08/opencl-program-parameter-setting/)
