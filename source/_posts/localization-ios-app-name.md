@@ -1,7 +1,4 @@
-﻿# iOS应用名的本地化支持
-
----
-## 环境
+﻿## 环境
 Xcode 7.2 & Mac OS X 10.11
 
 ## 配置Xcode
@@ -36,6 +33,10 @@ Xcode 7.2 & Mac OS X 10.11
 
 还可以通过NSHumanReadableCopyright Key设置版权声明的本地化配置，更多请参考：[官网链接 Localizing Your App](https://developer.apple.com/library/ios/documentation/MacOSX/Conceptual/BPInternational/LocalizingYourApp/LocalizingYourApp.html)
 
+![localization-set-plist-appname.png-99.7kB][6]
+
+- - - 
+## 测试
 完成后，可以通过设备上的**“语言与地区”**设置不同的语言进行测试。
 
 
@@ -44,3 +45,4 @@ Xcode 7.2 & Mac OS X 10.11
   [3]: http://static.zybuluo.com/happinessnch/3ja6ikggrjlvb7tesfgspjf0/localization-xcode-create-strings-file-15-03.png
   [4]: http://static.zybuluo.com/happinessnch/irdyb9w3gd1abjzt1477dbsr/localization-InfoPlist-set-19-04.png
   [5]: http://static.zybuluo.com/happinessnch/98wtyy8xdw80jpokpkrjdee6/localization-set-plist-language-19-13.png
+  [6]: http://static.zybuluo.com/happinessnch/0jopaeokmg5ug1fu9szedt19/localization-set-plist-appname.png
