@@ -2,6 +2,7 @@
 title: Debian 设置中文支持
 date: 2016-03-23 15:43:59
 tags: OS System Setting
+categories: 系统设置
 ---
 
 

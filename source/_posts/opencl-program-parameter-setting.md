@@ -1,7 +1,9 @@
 ---
 title: 异构计算 OpenCL(CPU/GPU) 执行参数设置
 date: 2016-04-08 20:00:07
-tags:
+tags: 异构计算
+categories: 异构计算
+
 ---
 通过 clCreateCommandQueue 创建执行命令队列。
 ```C

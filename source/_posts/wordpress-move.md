@@ -1,10 +1,11 @@
-﻿# Wordpress 迁移 
-
-标签（空格分隔）：Wordpress 
-
+---
+title: wordpress 迁移
+date: 2016-05-24 21:22:13
+tags: wordpress
+categories: blog
 ---
 
-##方法一:
+## 方法一:
 
 1. 将wp-content/plugins，wp-content/themes，wp-content/uploads复制到新的服务器中去。
 

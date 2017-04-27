@@ -1,4 +1,11 @@
-﻿## 环境
+﻿---
+title: iOS应用名的本地化支持
+date: 2016-04-16 19:44:37
+tags: iOS
+categories: iOS
+---
+
+## 环境
 Xcode 7.2 & Mac OS X 10.11
 
 ## 配置Xcode

@@ -2,6 +2,7 @@
 title: 异构计算 OpenCL(CPU/GPU) 开发环境构建
 date: 2016-03-31 09:28:48
 tags: 异构计算
+categories: 异构计算
 ---
 # 环境构建
 根据显卡安装相关驱动和SDK（Nvidia/ATI等）

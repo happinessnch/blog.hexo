@@ -1,7 +1,8 @@
-﻿# 图论 Lowest Common Ancestor
-
-标签（空格分隔）： algorithm
-
+---
+title: 图论 Lowest Common Ancestor
+date: 2016-05-26 21:11:19
+tags: algorithm
+categories: algorithm
 ---
 ## 在线倍增法 
 如求A，B两点的LCA，先计算出各个结点的深度depth[]，然后，通过递推公式求出各个结点的2次方倍的祖先ancestor[]，假设depth[A] > depth[B]，则找到depth[ancestor[A][i]] == depth[B]也就是A的某一祖先与B深度相同，然后，u = ancestor[A][i]，通过ancestor[u][i] 与ancestor[B][i]比较找出LCA。

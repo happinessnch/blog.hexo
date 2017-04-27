@@ -1,7 +1,8 @@
-﻿# Wordpress FAQ
-
-标签（空格分隔）： Wordpress
-
+---
+title: wordpress FAQ
+date: 2016-05-13 09:58:10
+tags: wordpress
+categories: blog
 ---
 # 插件
 

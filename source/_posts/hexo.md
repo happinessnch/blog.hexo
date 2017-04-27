@@ -1,7 +1,9 @@
 layout: h
 title: hexo 构建
 date: 2016-03-22 17:18:35
-tags: Blog Build
+tags: blog
+categories: blog
+
 ---
 
 **安装 Node.js 和 git**

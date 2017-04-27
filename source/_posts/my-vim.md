@@ -1,6 +1,8 @@
-# My VIM
-
-标签（空格分隔）： VIM
+---
+title: My vim
+date: 2016-07-23 16:55:09
+tags: vim
+---
 
 ---
 ## 常用命令
@@ -165,12 +167,12 @@ if filename != 'makefile'
 endif    
 set nobackup    
     
-noremap <CR>  o^[  
+"noremap <CR>  o^[  
 "Enter replace cmd(o) + Esc (^[ represent Esc)  
-imap { {}^[OD  
-imap ( ()^[OD  
-imap [ []^[OD  
-imap <C-P> <Esc>  
+"imap { {}^[OD  
+"imap ( ()^[OD  
+"imap [ []^[OD  
+"imap <C-P> <Esc>  
 ```
 MacOS 下加上这两句，用来复制选中文字进入系统剪切板
 ```
