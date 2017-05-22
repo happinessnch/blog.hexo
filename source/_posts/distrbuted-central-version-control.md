@@ -64,11 +64,11 @@ origin   o<---o<---o<---o<-------o
 
 ## 总结
 集中式管理虽然在分支管理上不如分布式友好，但是也有其他优点，比如，由于设计（1）导致.git与.hg等版本信息管理文件的大小会比.svn大的多，经过长时间迭代就会发现.git会比工程本身都要大很多，而且特别是对于较大的二进制文件，在没有优化过的.git，几乎是在版本信息里存储了一个压缩副本，迭代时间长了之后，.git会大到根本无法下载，必须使用[git-lfs](https://git-lfs.github.com/)或者[git-svn](https://git-scm.com/docs/git-svn)扩展插件来单独维护较大的二进制文件。
-所以，对于多人协作服务器开发或者资源较少的App开发，笔者认为分布式管理是一个更好的选择，而对于二进制文件较多的游戏开发，最好采用集中式版本工具管理资源（据说在二进制文件优化这一点上，付费的Perforce将会比SVN优化的更好）。同时，如果有需求需要文件夹管理权限，那么，Git等工具就很难做到，需要使用SVN, Perforce等工具。
+所以，对于多人协作服务器开发或者资源较少的App开发，笔者认为分布式管理是一个更好的选择，而对于二进制文件较多的游戏开发，最好采用集中式版本工具管理资源（据说在二进制文件优化这一点上，付费的Perforce将会比SVN优化的更好）。同时，如果有需求需要文件夹管理权限，那么，Git等工具就很难做到，需要使用SVN, Perforce等工具。至于联网等限制条件，笔者认为并不是时下开发的主要限制因素，因此，不再此文讨论。
 
 ## 常用工具
-集中式管理工具：SVN, CVS, 
-分布式管理工具：Git, Mercurial, 
+集中式管理工具：SVN, CVS, TFS, VSS, ClearCase, Perforce
+分布式管理工具：Git, Mercurial, Bazaar
 
 参考资料: 
 [how-and-or-why-is-merging-in-git-better-than-in-svn](http://stackoverflow.com/questions/2471606/how-and-or-why-is-merging-in-git-better-than-in-svn)
