@@ -5,7 +5,7 @@ tags: C++
 categories: C++
 ---
 
-[explicit MSDN](https://msdn.microsoft.com/en-us/library/h1y7x448(v=vs.110).aspx)
+[explicit MSDN](https://msdn.microsoft.com/en-us/library/h1y7x448%28v=vs.110%29.aspx)
 
 C++ ctors (constructors) that have just one parameter automatically perform implicit type conversion. For example, if you pass an int when the ctor expects a string pointer parameter, the compiler adds the code it must have to convert the int to a string pointer. However, this automatic behavior can cause errors. 
 
@@ -49,5 +49,5 @@ error C2440: 'initializing' : cannot convert from 'int' to 'String' Constructor 
 ```
 
 参考：
-[explicit MSDN](https://msdn.microsoft.com/en-us/library/h1y7x448(v=vs.110).aspx)
+[explicit MSDN](https://msdn.microsoft.com/en-us/library/h1y7x448%28v=vs.110%29.aspx)
 [explicit-keyword-mean](https://stackoverflow.com/questions/121162/what-does-the-explicit-keyword-mean)
