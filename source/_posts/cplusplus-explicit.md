@@ -51,3 +51,4 @@ error C2440: 'initializing' : cannot convert from 'int' to 'String' Constructor 
 参考：
 [explicit MSDN](https://msdn.microsoft.com/en-us/library/h1y7x448%28v=vs.110%29.aspx)
 [explicit-keyword-mean](https://stackoverflow.com/questions/121162/what-does-the-explicit-keyword-mean)
+[google-cplusplus-style](https://google.github.io/styleguide/cppguide.html#Implicit_Conversions)
